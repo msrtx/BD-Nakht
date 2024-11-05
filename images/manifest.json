@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2005,
+    "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/",
+    "label" : {
+      "none" : [ "Bonhams" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 63,
+              "height" : 87
+            }, {
+              "width" : 126,
+              "height" : 173
+            }, {
+              "width" : 251,
+              "height" : 345
+            }, {
+              "width" : 502,
+              "height" : 689
+            }, {
+              "width" : 1003,
+              "height" : 1378
+            }, {
+              "width" : 2005,
+              "height" : 2755
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2005,
+            "@id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2755
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2005,
+          "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2755
+        },
+        "target" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/"
+      } ]
+    } ],
+    "height" : 2755
+  }, {
     "width" : 2149,
     "id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/canvas/",
     "label" : {
