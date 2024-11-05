@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 63,
+    "height" : 87
+  }, {
+    "width" : 126,
+    "height" : 173
+  }, {
+    "width" : 251,
+    "height" : 345
+  }, {
+    "width" : 502,
+    "height" : 689
+  }, {
+    "width" : 1003,
+    "height" : 1378
+  }, {
+    "width" : 2005,
+    "height" : 2755
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2005,
+  "@id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2755
+}
