@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 213,
+    "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/",
+    "label" : {
+      "none" : [ "Qenna" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 7,
+              "height" : 7
+            }, {
+              "width" : 14,
+              "height" : 14
+            }, {
+              "width" : 27,
+              "height" : 27
+            }, {
+              "width" : 54,
+              "height" : 54
+            }, {
+              "width" : 107,
+              "height" : 107
+            }, {
+              "width" : 213,
+              "height" : 214
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 213,
+            "@id" : "https://msrtx.github.io/BD-Nakht/images/Qenna",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 214
+          } ],
+          "format" : "image/jpeg",
+          "width" : 213,
+          "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 214
+        },
+        "target" : "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/"
+      } ]
+    } ],
+    "height" : 214
+  }, {
     "width" : 5179,
     "id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/canvas/",
     "label" : {
