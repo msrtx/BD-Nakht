@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 588,
+    "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/",
+    "label" : {
+      "none" : [ "QennaM17" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 19,
+              "height" : 19
+            }, {
+              "width" : 37,
+              "height" : 37
+            }, {
+              "width" : 74,
+              "height" : 74
+            }, {
+              "width" : 147,
+              "height" : 147
+            }, {
+              "width" : 294,
+              "height" : 294
+            }, {
+              "width" : 588,
+              "height" : 587
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 588,
+            "@id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 587
+          } ],
+          "format" : "image/jpeg",
+          "width" : 588,
+          "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 587
+        },
+        "target" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/"
+      } ]
+    } ],
+    "height" : 587
+  }, {
     "width" : 512,
     "id" : "https://msrtx.github.io/BD-Nakht/images/TT100/canvas/",
     "label" : {
