@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 267,
+    "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/",
+    "label" : {
+      "none" : [ "TT181M17" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 9,
+              "height" : 9
+            }, {
+              "width" : 17,
+              "height" : 17
+            }, {
+              "width" : 34,
+              "height" : 34
+            }, {
+              "width" : 67,
+              "height" : 67
+            }, {
+              "width" : 134,
+              "height" : 134
+            }, {
+              "width" : 267,
+              "height" : 267
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 267,
+            "@id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 267
+          } ],
+          "format" : "image/jpeg",
+          "width" : 267,
+          "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 267
+        },
+        "target" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/"
+      } ]
+    } ],
+    "height" : 267
+  }, {
     "width" : 513,
     "id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/canvas/",
     "label" : {
