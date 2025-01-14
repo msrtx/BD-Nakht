@@ -1,579 +1,741 @@
 {
-  "id" : "https://msrtx.github.io/BD-Nakht/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in msrtx/BD-Nakht project" ]
-  },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 267,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/",
-    "label" : {
-      "none" : [ "TT181M17" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://msrtx.github.io/BD-Nakht/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in msrtx/BD-Nakht project"
+        ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 9,
-              "height" : 9
-            }, {
-              "width" : 17,
-              "height" : 17
-            }, {
-              "width" : 34,
-              "height" : 34
-            }, {
-              "width" : 67,
-              "height" : 67
-            }, {
-              "width" : 134,
-              "height" : 134
-            }, {
-              "width" : 267,
-              "height" : 267
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 267,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 267
-          } ],
-          "format" : "image/jpeg",
-          "width" : 267,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 267
+    "items": [
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "TT181M17"
+                ]
+            },
+            "height": 267,
+            "width": 267,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/TT181M17/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/TT181M17/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/TT181M17/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 9,
+                                                "height": 9
+                                            },
+                                            {
+                                                "width": 17,
+                                                "height": 17
+                                            },
+                                            {
+                                                "width": 34,
+                                                "height": 34
+                                            },
+                                            {
+                                                "width": 67,
+                                                "height": 67
+                                            },
+                                            {
+                                                "width": 134,
+                                                "height": 134
+                                            },
+                                            {
+                                                "width": 267,
+                                                "height": 267
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 267,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/TT181M17",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 267,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/TT181M17/canvas/"
-      } ]
-    } ],
-    "height" : 267
-  }, {
-    "width" : 513,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/canvas/",
-    "label" : {
-      "none" : [ "YuyaM17" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 17,
-              "height" : 16
-            }, {
-              "width" : 33,
-              "height" : 32
-            }, {
-              "width" : 65,
-              "height" : 64
-            }, {
-              "width" : 129,
-              "height" : 128
-            }, {
-              "width" : 257,
-              "height" : 256
-            }, {
-              "width" : 513,
-              "height" : 512
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 513,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 512
-          } ],
-          "format" : "image/jpeg",
-          "width" : 513,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 512
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/Yuya/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Yuya"
+                ]
+            },
+            "height": 513,
+            "width": 513,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/Yuya/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/Yuya/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/Yuya/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 17,
+                                                "height": 17
+                                            },
+                                            {
+                                                "width": 33,
+                                                "height": 33
+                                            },
+                                            {
+                                                "width": 65,
+                                                "height": 65
+                                            },
+                                            {
+                                                "width": 129,
+                                                "height": 129
+                                            },
+                                            {
+                                                "width": 257,
+                                                "height": 257
+                                            },
+                                            {
+                                                "width": 513,
+                                                "height": 513
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 513,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/Yuya",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 513,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/Yuya/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/YuyaM17/canvas/"
-      } ]
-    } ],
-    "height" : 512
-  }, {
-    "width" : 588,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/",
-    "label" : {
-      "none" : [ "QennaM17" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 19,
-              "height" : 19
-            }, {
-              "width" : 37,
-              "height" : 37
-            }, {
-              "width" : 74,
-              "height" : 74
-            }, {
-              "width" : 147,
-              "height" : 147
-            }, {
-              "width" : 294,
-              "height" : 294
-            }, {
-              "width" : 588,
-              "height" : 587
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 588,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 587
-          } ],
-          "format" : "image/jpeg",
-          "width" : 588,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 587
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/1/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "1"
+                ]
+            },
+            "height": 2091,
+            "width": 3705,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/1/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/1/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 116,
+                                                "height": 66
+                                            },
+                                            {
+                                                "width": 232,
+                                                "height": 131
+                                            },
+                                            {
+                                                "width": 464,
+                                                "height": 262
+                                            },
+                                            {
+                                                "width": 927,
+                                                "height": 523
+                                            },
+                                            {
+                                                "width": 1853,
+                                                "height": 1046
+                                            },
+                                            {
+                                                "width": 3705,
+                                                "height": 2091
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3705,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/1",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2091,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/1/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/"
-      } ]
-    } ],
-    "height" : 587
-  }, {
-    "width" : 512,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/TT100/canvas/",
-    "label" : {
-      "none" : [ "TT100" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/TT100/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/TT100/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 16,
-              "height" : 17
-            }, {
-              "width" : 32,
-              "height" : 33
-            }, {
-              "width" : 64,
-              "height" : 65
-            }, {
-              "width" : 128,
-              "height" : 129
-            }, {
-              "width" : 256,
-              "height" : 257
-            }, {
-              "width" : 512,
-              "height" : 513
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 512,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/TT100",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 513
-          } ],
-          "format" : "image/jpeg",
-          "width" : 512,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/TT100/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 513
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Bonhams"
+                ]
+            },
+            "height": 2755,
+            "width": 2005,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/Bonhams/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/Bonhams/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/Bonhams/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 63,
+                                                "height": 87
+                                            },
+                                            {
+                                                "width": 126,
+                                                "height": 173
+                                            },
+                                            {
+                                                "width": 251,
+                                                "height": 345
+                                            },
+                                            {
+                                                "width": 502,
+                                                "height": 689
+                                            },
+                                            {
+                                                "width": 1003,
+                                                "height": 1378
+                                            },
+                                            {
+                                                "width": 2005,
+                                                "height": 2755
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2005,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/Bonhams",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2755,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/TT100/canvas/"
-      } ]
-    } ],
-    "height" : 513
-  }, {
-    "width" : 513,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/Yuya/canvas/",
-    "label" : {
-      "none" : [ "Yuya" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/Yuya/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/Yuya/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 17,
-              "height" : 17
-            }, {
-              "width" : 33,
-              "height" : 33
-            }, {
-              "width" : 65,
-              "height" : 65
-            }, {
-              "width" : 129,
-              "height" : 129
-            }, {
-              "width" : 257,
-              "height" : 257
-            }, {
-              "width" : 513,
-              "height" : 513
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 513,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/Yuya",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 513
-          } ],
-          "format" : "image/jpeg",
-          "width" : 513,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/Yuya/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 513
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "BDNakhtA"
+                ]
+            },
+            "height": 2956,
+            "width": 5179,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 162,
+                                                "height": 93
+                                            },
+                                            {
+                                                "width": 324,
+                                                "height": 185
+                                            },
+                                            {
+                                                "width": 648,
+                                                "height": 370
+                                            },
+                                            {
+                                                "width": 1295,
+                                                "height": 739
+                                            },
+                                            {
+                                                "width": 2590,
+                                                "height": 1478
+                                            },
+                                            {
+                                                "width": 5179,
+                                                "height": 2956
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 5179,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2956,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/Yuya/canvas/"
-      } ]
-    } ],
-    "height" : 513
-  }, {
-    "width" : 213,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/",
-    "label" : {
-      "none" : [ "Qenna" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 7,
-              "height" : 7
-            }, {
-              "width" : 14,
-              "height" : 14
-            }, {
-              "width" : 27,
-              "height" : 27
-            }, {
-              "width" : 54,
-              "height" : 54
-            }, {
-              "width" : 107,
-              "height" : 107
-            }, {
-              "width" : 213,
-              "height" : 214
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 213,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/Qenna",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 214
-          } ],
-          "format" : "image/jpeg",
-          "width" : 213,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/Qenna/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 214
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "QennaM17"
+                ]
+            },
+            "height": 587,
+            "width": 588,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/QennaM17/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/QennaM17/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/QennaM17/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 19,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 37,
+                                                "height": 37
+                                            },
+                                            {
+                                                "width": 74,
+                                                "height": 74
+                                            },
+                                            {
+                                                "width": 147,
+                                                "height": 147
+                                            },
+                                            {
+                                                "width": 294,
+                                                "height": 294
+                                            },
+                                            {
+                                                "width": 588,
+                                                "height": 587
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 588,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/QennaM17",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 587,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/QennaM17/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/"
-      } ]
-    } ],
-    "height" : 214
-  }, {
-    "width" : 5179,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/canvas/",
-    "label" : {
-      "none" : [ "BDNakhtA" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 162,
-              "height" : 93
-            }, {
-              "width" : 324,
-              "height" : 185
-            }, {
-              "width" : 648,
-              "height" : 370
-            }, {
-              "width" : 1295,
-              "height" : 739
-            }, {
-              "width" : 2590,
-              "height" : 1478
-            }, {
-              "width" : 5179,
-              "height" : 2956
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 5179,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2956
-          } ],
-          "format" : "image/jpeg",
-          "width" : 5179,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2956
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Qenna"
+                ]
+            },
+            "height": 214,
+            "width": 213,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/Qenna/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/Qenna/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/Qenna/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 7,
+                                                "height": 7
+                                            },
+                                            {
+                                                "width": 14,
+                                                "height": 14
+                                            },
+                                            {
+                                                "width": 27,
+                                                "height": 27
+                                            },
+                                            {
+                                                "width": 54,
+                                                "height": 54
+                                            },
+                                            {
+                                                "width": 107,
+                                                "height": 107
+                                            },
+                                            {
+                                                "width": 213,
+                                                "height": 214
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 213,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/Qenna",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 214,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/Qenna/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/BDNakhtA/canvas/"
-      } ]
-    } ],
-    "height" : 2956
-  }, {
-    "width" : 3705,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/1/canvas/",
-    "label" : {
-      "none" : [ "1" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/1/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/1/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 116,
-              "height" : 66
-            }, {
-              "width" : 232,
-              "height" : 131
-            }, {
-              "width" : 464,
-              "height" : 262
-            }, {
-              "width" : 927,
-              "height" : 523
-            }, {
-              "width" : 1853,
-              "height" : 1046
-            }, {
-              "width" : 3705,
-              "height" : 2091
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3705,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/1",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2091
-          } ],
-          "format" : "image/jpeg",
-          "width" : 3705,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/1/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2091
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/TT100/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "TT100"
+                ]
+            },
+            "height": 513,
+            "width": 512,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/TT100/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/TT100/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/TT100/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 16,
+                                                "height": 17
+                                            },
+                                            {
+                                                "width": 32,
+                                                "height": 33
+                                            },
+                                            {
+                                                "width": 64,
+                                                "height": 65
+                                            },
+                                            {
+                                                "width": 128,
+                                                "height": 129
+                                            },
+                                            {
+                                                "width": 256,
+                                                "height": 257
+                                            },
+                                            {
+                                                "width": 512,
+                                                "height": 513
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 512,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/TT100",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 513,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/TT100/canvas/"
+                        }
+                    ]
+                }
+            ]
         },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/1/canvas/"
-      } ]
-    } ],
-    "height" : 2091
-  }, {
-    "width" : 2005,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/",
-    "label" : {
-      "none" : [ "Bonhams" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 63,
-              "height" : 87
-            }, {
-              "width" : 126,
-              "height" : 173
-            }, {
-              "width" : 251,
-              "height" : 345
-            }, {
-              "width" : 502,
-              "height" : 689
-            }, {
-              "width" : 1003,
-              "height" : 1378
-            }, {
-              "width" : 2005,
-              "height" : 2755
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 2005,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2755
-          } ],
-          "format" : "image/jpeg",
-          "width" : 2005,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 2755
-        },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/Bonhams/canvas/"
-      } ]
-    } ],
-    "height" : 2755
-  }, {
-    "width" : 2149,
-    "id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/canvas/",
-    "label" : {
-      "none" : [ "NakhtTrial" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 68,
-              "height" : 52
-            }, {
-              "width" : 135,
-              "height" : 104
-            }, {
-              "width" : 269,
-              "height" : 208
-            }, {
-              "width" : 538,
-              "height" : 416
-            }, {
-              "width" : 1075,
-              "height" : 832
-            }, {
-              "width" : 2149,
-              "height" : 1664
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 2149,
-            "@id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 1664
-          } ],
-          "format" : "image/jpeg",
-          "width" : 2149,
-          "id" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 1664
-        },
-        "target" : "https://msrtx.github.io/BD-Nakht/images/NakhtTrial/canvas/"
-      } ]
-    } ],
-    "height" : 1664
-  } ]
+        {
+            "id": "https://msrtx.github.io/BD-Nakht/images/YuyaM17/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "YuyaM17"
+                ]
+            },
+            "height": 512,
+            "width": 513,
+            "items": [
+                {
+                    "id": "https://msrtx.github.io/BD-Nakht/images/YuyaM17/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://msrtx.github.io/BD-Nakht/images/YuyaM17/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://msrtx.github.io/BD-Nakht/images/YuyaM17/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 17,
+                                                "height": 16
+                                            },
+                                            {
+                                                "width": 33,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 65,
+                                                "height": 64
+                                            },
+                                            {
+                                                "width": 129,
+                                                "height": 128
+                                            },
+                                            {
+                                                "width": 257,
+                                                "height": 256
+                                            },
+                                            {
+                                                "width": 513,
+                                                "height": 512
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 513,
+                                        "@id": "https://msrtx.github.io/BD-Nakht/images/YuyaM17",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 512,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://msrtx.github.io/BD-Nakht/images/YuyaM17/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
